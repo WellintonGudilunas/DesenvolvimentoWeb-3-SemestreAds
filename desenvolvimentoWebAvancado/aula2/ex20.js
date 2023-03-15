@@ -10,4 +10,4 @@ let velocidadeMedia = 80;
 
 let gasto = (velocidadeMedia * tempoEmHoras) / 12
 
-console.log(Math.floor(gasto) + " Litros")
+console.log(Math.floor(gasto) + " Litros");
