@@ -2,7 +2,8 @@
 Ex 10. Escreva um algoritmo que leia um número de 1 a 5 e escreva-o por extenso. Caso o usuário digite um
 valor que não esteja neste intervalo, exibir a mensagem: “Número inválido! ”.
 */
-let x = 1;
+const prompt = require('prompt-sync')();
+let x = Number(prompt("Digite o número: "));
 
 if(x < 1 || x > 5)
   console.log(`O número ${x} é um número inválido.`);
