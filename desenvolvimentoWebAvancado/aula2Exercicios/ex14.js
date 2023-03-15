@@ -4,3 +4,10 @@ temos que an é o termo de ordem n (n-ésimo termo), r é a razão e a1 é o pri
 Escreva um algoritmo que encontre o n-ésimo termo de uma progressão aritmética. Exemplo: a1 = 10, n = 7, r = 3.
 Resultado: an = 28
 */
+
+let a1 = 10;
+let n = 7;
+let r = 3;
+let an = a1 + (n - 1) * r;
+
+console.log(`An = ${an}`);

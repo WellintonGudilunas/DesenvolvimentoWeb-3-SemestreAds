@@ -4,4 +4,4 @@ nota1 = 10.0, nota2 = 5.5, nota3 = 8.0. Média: 7.83
 */
 
 let n1 = 10, n2 = 5.5, n3 = 8;
-console.log((n1 + n2 + n3) / 3);
+console.log(`A média aritmética das notas é: ${(n1 + n2 + n3) / 3}`);
