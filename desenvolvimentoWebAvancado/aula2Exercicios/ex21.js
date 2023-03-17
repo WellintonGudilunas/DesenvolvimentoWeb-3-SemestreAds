@@ -2,7 +2,6 @@
 Ex 21. Escreva um algoritmo que leia uma sequência finita de números e mostre posi�vo, nega�vo ou zero para 
 cada número.
 */
-
 const prompt = require('prompt-sync')();
 
 let quantidadeNumeros = Number(prompt("Digite a quantidade de números que o array terá: "));

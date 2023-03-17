@@ -2,7 +2,6 @@
 Ex 4. Elabore um programa que leia um vetor de 5 elementos e um número n qualquer. Mostre na tela o índice 
 dos elementos que são inferiores a n
 */
-
 const prompt = require('prompt-sync')();
 
 let arrayNumerico = [];
