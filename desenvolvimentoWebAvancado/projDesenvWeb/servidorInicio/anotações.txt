@@ -1,6 +1,0 @@
-Pra criar o servidor é necessário instalar o express
-npm install express
-
-
-npm i
-node servidor.js
